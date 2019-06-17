@@ -21,7 +21,7 @@ app.use(cors());
 
 //root route
 app.get('/', (req, res)=>{
-  res.send(database.users);
+  res.send('it is workin');
 })
 
 //Routes
